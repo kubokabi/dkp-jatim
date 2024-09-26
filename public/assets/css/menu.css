@@ -1,0 +1,160 @@
+.jfr-container {
+  padding-top: 32px;
+  display: flex;
+  column-gap: 30px;
+  row-gap: 10px;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
+}
+.jfr-icon > .jfr-icon-inner1 {
+  width: 100px;
+  height: 100px;
+  color: black;
+  background: linear-gradient(to bottom right, #6790f0, #2d5bc4);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jfr-icon > .jfr-icon-inner1:hover {
+  color: black;
+  /*background: white;*/
+  border: #f0ad02 1px solid;
+  transform: rotate(10deg);
+  box-shadow: 4px 4px 10px #ffd365;
+  cursor: pointer;
+  /*opacity:0.4;*/
+}
+.jfr-icon > .jfr-icon-inner2 {
+  width: 100px;
+  height: 100px;
+  color: black;
+  background: linear-gradient(to bottom right, #24ad01, #d17d00);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jfr-icon > .jfr-icon-inner2:hover {
+  color: black;
+  background: white;
+  border: #24ad01 4px solid;
+  transform: rotate(10deg);
+  box-shadow: 4px 4px 10px #53fa29;
+  cursor: pointer;
+}
+.jfr-icon > .jfr-icon-inner3 {
+  width: 80px;
+  height: 80px;
+  color: black;
+  background: linear-gradient(to bottom right, #00d3ad, #1500d1);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jfr-icon > .jfr-icon-inner3:hover {
+  color: black;
+  background: white;
+  border: #00d3ad 4px solid;
+  transform: rotate(10deg);
+  box-shadow: 4px 4px 10px #34ffda;
+  cursor: pointer;
+}
+.jfr-icon > .jfr-icon-inner4 {
+  width: 80px;
+  height: 80px;
+  color: black;
+  background: linear-gradient(to bottom right, #1502f0, #be0480);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jfr-icon > .jfr-icon-inner4:hover {
+  color: black;
+  background: white;
+  border: #1502f0 4px solid;
+  transform: rotate(10deg);
+  box-shadow: 4px 4px 10px #5040ff;
+  cursor: pointer;
+}
+.jfr-icon > .jfr-icon-inner5 {
+  width: 80px;
+  height: 80px;
+  color: black;
+  background: linear-gradient(to bottom right, #f03c02, #ced118);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jfr-icon > .jfr-icon-inner5:hover {
+  color: black;
+  background: white;
+  border: #f03c02 4px solid;
+  transform: rotate(10deg);
+  box-shadow: 4px 4px 10px #ff6937;
+  cursor: pointer;
+}
+.jfr-text {
+  display: flex;
+  color: #252525;
+  font-size: 12px;
+  padding-top: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kontainer {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.kartu {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 4px 10px #e9e9e9;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.kartu:hover {
+  background-color: #f5f5f5;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.body-kartu {
+  display: flex;
+  justify-content: center;
+}
+.footer-kartu {
+  display: flex;
+  color: white;
+  background-color: #005fad;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.footer-kartu:hover {
+  color: #005fad;
+  background-color: white;
+}
